@@ -1,13 +1,13 @@
-package com.tricoexamples.kafkaexample;
+package com.springexamples.kafkaexample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootKafkaExampleApplication {
+public class KafkaExampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootKafkaExampleApplication.class, args);
+        SpringApplication.run(KafkaExampleApplication.class, args);
     }
 
 }
